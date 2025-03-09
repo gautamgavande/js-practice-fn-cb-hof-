@@ -311,3 +311,25 @@ console.log(a.toFixed(3))//point ke bad kitne number return karna hai iske lia u
 // let name=prompt("Enter your name ")
 // if(age>=18)console.log(`${name} is valid voter`)
 // else console.log("you are not valid voter")
+
+
+//9.leap year or not
+
+// let a=Number(prompt("Enter  year "))
+// if(a%4===0) console.log("it is leap year")
+// else console.log("not leap year")
+
+
+
+// 10.//find gretest number in three integer
+// let a=Number(prompt("enter first number"))
+// let b=Number(prompt("enter second number"))
+// let c=Number(prompt("enter third number"))
+
+// if(a>b && a>c){
+//     console.log(a," is greter")
+// }else if(b>a && b>c){
+//     console.log(b," is greter")
+// }else{
+//     console.log(c," is greter")
+// }
