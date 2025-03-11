@@ -333,3 +333,116 @@ console.log(a.toFixed(3))//point ke bad kitne number return karna hai iske lia u
 // }else{
 //     console.log(c," is greter")
 // }
+
+
+//leap year concept
+//agar year 4 se divicible hai to vo leap year honga or agr  100 se divicible hai par ye jaruri nahi ki 100 se bhi divicible hai par agar 100 se divicible ho to 400 se bhi divisible hona chahia tab hi leap year honga
+
+/*
+let year=Number(prompt("enter a year"))
+
+let isleap=false;
+
+
+if(year%4==0){
+   
+    if(year%100==0){
+        if(year%400==0) isleap=true
+    }else{
+        isleap=true;
+    }
+}
+console.log(isleap?"Given year is leap year.":"Given Year is Not Leap Year.")
+*/
+
+
+///////////////
+// let year=Number(prompt("enter a year"))
+
+// let isleap=false;
+
+// if((year%4==0 && year%100 !=0)) {
+//     console.log("Leap year")
+// }
+// else if(year%400==0){
+//     console.log("Leap year")
+// }else{
+//     console.log("NOT LEAP YEAR")
+// }
+
+//////amount ke acordinng percent me discount
+
+// let amount=Number(prompt("Enter a number"))
+
+// if(amount>=0 && amount<=5000){
+//     console.log(amount)
+// }else if(amount>5000 && amount<=7000){
+//     console.log(amount-(5*amount)/100)
+// }else if(amount>7000 && amount<=9000){
+//     console.log(amount-(10*amount)/100)
+// }else if(amount>9000 ){
+//     console.log(amount-(20*amount)/100)
+// }else{
+//     console.log("Invalid input")
+// }
+
+////////////////////other aproch
+
+// let amount=Number(prompt("Enter a number"))
+
+// let dis=0;
+// if(amount>=0 && amount<=5000) dis=0;
+// else if(amount>5000 && amount<=7000) dis=5;
+// else if(amount>7000 && amount<=9000) dis=10;
+// else if(amount>9000) dis=20;
+// else console.log("Invalid input")
+// console.log(amount-(dis*amount)/100)
+
+
+
+///////bijli bill
+
+// upto 100=4.2/unit
+// upto 101-200=6/unit
+// upto 201-400=8/unit
+// more then 400=13/unit
+
+// let unit = Number(prompt("enter a number"))
+// let amount = 0;
+// if (unit > 0 && unit <= 100) {
+//     amount = unit * 4.2;
+// } else if (unit > 100 && unit <= 200) {
+//     amount = (100 * 4.2) + (unit - 100) * 6
+// } else if (unit > 200 && unit <= 400) {
+//     amount = (100 * 4.2) + (100 * 6) + (unit - 200) * 8
+// } else if (unit > 400) {
+//     amount = (100 * 4.2) + (100 * 6) + (200 * 8) + (unit - 400) * 13
+// }
+// console.log(amount)
+
+
+
+////////////
+// let unit = Number(prompt("enter a number"))
+// let amount = 0;
+
+// if(unit>400){
+//       amount=(unit-400)*13
+//       unit=400;
+// }
+// if(unit>200 && unit<=400){
+//     amount=amount+(unit-200)*8;
+//     unit=200;
+// }
+// if(unit>100 && unit<=200){
+//     amount=amount+(unit-100)*6;
+//     unit=100;
+// }
+// amount=amount+unit*4.2;
+// console.log(amount)
+
+
+//////Loop
+// 1.entry control -->for,while pahle condition then task perform honga
+// 2.exit control -->do while pahle chalenga fir task perform honga
+
